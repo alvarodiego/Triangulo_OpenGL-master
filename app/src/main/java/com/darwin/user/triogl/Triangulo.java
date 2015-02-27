@@ -2,7 +2,7 @@ package com.darwin.user.triogl;
 
 /**
  * Created by user on 19/02/2015.
- * modificado por Luis Chicaiza
+
  */
 
 import java.nio.ByteBuffer;
@@ -15,14 +15,14 @@ import javax.microedition.khronos.opengles.GL10;
 public class Triangulo {
     // x, y, z
     private float vertices[] = {
-            1.0f, 0.0f, 0.0f,  // vertices[0], boton left
+            1.0f, 0.5f, 0.5f,  // vertices[0], boton left
             -1.0f, 0.0f, 0.0f,   // vertices[1], boton right
             0.0f, 0.5f, 0.0f,   // vertices[2], middle top
     };
     private float colors[] = {
-            1.0f, 0.5f, 0.0f, 1.0f,
-            0.0f, 1.0f, 0.0f, 0.0f,
-            0.0f, 1.0f, 0.0f, 1.0f,
+            1.0f, 0.5f, 0.5f, 1.0f,
+            0.5f, 1.0f, 0.5f, 0.5f,
+            0.5f, 1.0f, 0.5f, 1.0f,
     };
 
     private short[] indices = {
